@@ -1,0 +1,35 @@
+html
+{
+	font-size:20px;
+	color: Black;
+	
+}
+.indexbutton
+{
+	background-color: black;
+	border-radius: 4px;
+	color: white;
+}
+.bg
+{
+	background-image: url('registerimg.jpg');
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+table
+{
+	background-color: rgba(255,255,255,0.75);
+	border-color: solid white;
+	margin-top:15%;
+	border-top: 1px solid;
+	padding-bottom: 30px;
+	border-bottom: 1px solid;
+}
+.decorbtn
+{
+	background-color: white;
+	border-radius: 4px;
+	color: green;
+}

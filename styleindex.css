@@ -1,0 +1,172 @@
+html
+{
+	background-color: #33cccc;
+}
+#intro
+{
+	height: 50px;
+	border: 1px solid black;
+	border-width: 2px;
+	text-align: right;
+	line-height: 50px;
+	font-family: Georgia;
+	font-size: 20px;
+	border-color: white;
+	border-radius: 5px;
+	border-width: 2px;
+	
+}
+#logo
+{
+	float: left;
+	height: 50px;
+}
+#introtext
+{
+	float:left;
+	height:50px;
+	line-height:50px;
+	font-family:Courier New;
+	font-size:30px;
+	color:white;
+	font-style:normal;
+	font-weight:bold;
+}
+#khimage
+{
+	height:50px;
+	width:60px;
+}
+#home
+{
+	margin-top:4px;
+	background: url("home.jpg");
+	background-size: cover;
+	background-position: center center;
+	border: 1px solid white;
+	height: 600px;
+	width:100%;
+}
+#inhome1
+{
+	margin-top:200px;
+	margin-bottom: 200px;
+	margin-left: 20%;
+	margin-right: 20%;
+	color: black;
+	font-weight:bold;
+	border: 1px solid white;
+	background-color: #fff;
+    background-color: rgba(255,255,255,0.75);
+}
+#inhome2
+{
+	margin-top:-98px;
+	border: 0px;
+}
+#inhome3
+{
+	margin-top:-100px;
+	margin-left:43%;
+	margin-right:43%;
+	text-align:center;
+	font-weight:bold;
+	font-size:25px;
+	border: 1px solid white;
+}
+#uparrowimage
+{
+	height: 40px;
+	width: 55px;
+}
+#aboutus
+{
+	margin-top:8px;
+	background: url("aboutus.jpg");
+	background-size: cover;
+	background-position: center center;
+	border: 1px solid white;
+	height: 600px;
+	width:100%;
+}
+#inaboutus1
+{
+	margin-top:130px;
+	margin-bottom: 200px;
+	color: black;
+	font-weight:bold;
+	border: 1px solid white;
+	background-color: #fff;
+    background-color: rgba(255,255,255,0.75);
+}
+#inaboutusp1
+{
+	text-align:right;
+	font-weight:normal;
+}
+#inaboutus2
+{
+	margin-top: -120px;
+}
+@keyframes example
+{
+    0%   {background-color: #000000;}
+    33%  {background-color: #505050;}
+    66%  {background-color: #A9A9A9;}
+    100%  {background-color: #505050;}
+}
+#contactus
+{
+	margin-top:8px;
+	background-color: black;
+	background-size: cover;
+	background-position: center center;
+	border: 1px solid white;
+	height: 200px;
+	width:100%;
+	animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+#incontactusimg
+{
+	height:150px;
+	width:auto;
+	border-radius:50%;
+}
+#incontactus1
+{
+	margin-top:-10px;
+	color: white;
+	font-weight:bold;
+	text-align:right;
+	font-size: 20px;
+}
+#incontactus2
+{
+	margin-top:-38px;
+}
+#incontactusp1
+{
+	text-align: left;
+	font-weight:normal;
+}
+#incontactus3
+{
+	margin-top:-200px;
+	margin-left:42%;
+}
+p
+{
+	text-align: center;
+	font-size:20px;
+}
+a
+{
+	text-decoration:none;
+	color:white;
+}
+a:hover
+{
+	background-color: silver;
+}

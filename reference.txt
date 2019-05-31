@@ -1,0 +1,246 @@
+<div id="intro">
+		<div id="logo">
+			<img id="khimage" src="kh.jpg"></img>
+		</div>
+		<div id="introtext">
+			&nbsp;Kitchen Hunt
+		</div>
+		<a href="#home"> Home &nbsp;&nbsp; </a>
+		<a href="#aboutus"> AboutUs &nbsp;&nbsp; </a>
+		<a href=""> Contact &nbsp;&nbsp; </a>
+		<a href="login.php"> Login &nbsp;&nbsp;</a>
+	</div>
+	<div id="home">
+		<div id="inhome1">
+			<p>Welcome to Kitchen Hunt!<br><br>
+			This website helps you book yourself a seat at your favorite restaurants.<br><br> 
+			The idea is to get all the cuisines ranging from North Indian to South Indian, Continental to Italian, everything is just a click away.
+			So, what are you waiting for. Give us a chance to make your experience better.<br><br>
+			"The taste of food is judged by the platter it is served in." 
+			</p>
+		</div>
+		<div id="inhome2">
+		
+					<a href="#intro"><img id="uparrowimage" src="uparrow.png"></img></a>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<div id="my-slider" class="carousel slide" data-ride="carousel">
+					
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img src="food1.jpg" alt="Food1"/>
+							<div class="carousel-caption">
+								<h2>Food 1</h2>
+							</div>
+						</div>
+					</div>
+					
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="aboutus">
+		<div id="inaboutus2">
+			<a href="#intro"><img id="uparrowimage" src="uparrow.png"></img></a>
+		</div>
+	</div>
+	<div id="content">
+		contact
+	</div>
+	
+	
+	
+	___________________________________________
+	
+html
+{
+	background-color: teal;
+}
+#intro
+{
+	height: 50px;
+	border: 1px solid black;
+	border-width: 2px;
+	text-align: right;
+	line-height: 50px;
+	font-family: Georgia;
+	font-size: 20px;
+	border-color: white;
+	border-radius: 5px;
+	border-width: 2px;
+	
+}
+#logo
+{
+	float: left;
+	height: 50px;
+}
+#introtext
+{
+	float:left;
+	height:50px;
+	line-height:50px;
+	font-family:Courier New;
+	font-size:30px;
+	color:white;
+	font-style:normal;
+	font-weight:bold;
+}
+#khimage
+{
+	height:50px;
+	width:60px;
+}
+#home
+{
+	margin-top:4px;
+	background: url("home.jpg");
+	background-size: cover;
+	background-position: center center;
+	border: 1px solid white;
+	height: 600px;
+	width:100%;
+}
+#inhome1
+{
+	margin-top:200px;
+	margin-bottom: 200px;
+	margin-left: 20%;
+	margin-right: 20%;
+	color: black;
+	font-weight:bold;
+	border: 1px solid white;
+	background-color: #fff;
+    background-color: rgba(255,255,255,0.75);
+}
+#inhome2
+{
+	margin-top:-98px;
+	border: 0px;
+}
+#uparrowimage
+{
+	height: 40px;
+	width: 50px;
+}
+#aboutus
+{
+	margin-top:8px;
+	background: url("aboutus.jpg");
+	background-size: cover;
+	background-position: center center;
+	border: 1px solid white;
+	height: 600px;
+	width:100%;
+}
+#inaboutus2
+{
+	margin-top: 560px;
+}
+p
+{
+	text-align: center;
+	font-size:20px;
+}
+a
+{
+	text-decoration:none;
+	color:white;
+}
+a:hover
+{
+	background-color: silver;
+}
+___________________________________________<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand"><img src="kh.jpg"></img></a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#">Page 1</a></li>
+				<li><a href="#">Page 2</a></li>
+				<li><a href="#">Page 3</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+				<li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+			</ul>
+		</div>
+	</nav>
+
+___________________________________________
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	__________________________________________________
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	
+	
+	
+	<div class="w3-content" style="max-width:800px">
+		<img class="mySlides" src="food1.jpg" style="width:100%">
+		<img class="mySlides" src="food2.jpg" style="width:100%">
+		<img class="mySlides" src="food3.jpg" style="width:100%">
+		<img class="mySlides" src="food4.jpg" style="width:100%">
+	</div>
+	<div class="w3-center">
+		<div class="w3-section">
+			<button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
+			<button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
+		</div>
+		<button class="w3-button demo" onclick="currentDiv(1)">1</button> 
+		<button class="w3-button demo" onclick="currentDiv(2)">2</button> 
+		<button class="w3-button demo" onclick="currentDiv(3)">3</button>
+		<button class="w3-button demo" onclick="currentDiv(4)">4</button>		
+	</div>
+	<script>
+		var slideIndex = 1;
+		showDivs(slideIndex);
+		function plusDivs(n)
+		{
+			showDivs(slideIndex += n);
+		}
+		function currentDiv(n)
+		{
+			showDivs(slideIndex = n);
+		}
+		function showDivs(n)
+		{
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			var dots = document.getElementsByClassName("demo");
+			if (n > x.length) {slideIndex = 1}    
+			if (n < 1) {slideIndex = x.length}
+			for (i = 0; i < x.length; i++)
+			{
+				x[i].style.display = "none";  
+			}
+			for (i = 0; i < dots.length; i++)
+			{
+				dots[i].className = dots[i].className.replace(" w3-red", "");
+			}
+			x[slideIndex-1].style.display = "block";  
+			dots[slideIndex-1].className += " w3-red";
+		}
+	</script>
+	
+	_____________________________________________________
+	<?php
+		if(isset($_SESSION['message']))
+		{
+			echo "".$_SESSION['message']."";
+			unset($_SESSION['message']);
+		}
+	?>
+	__________________________________________________
+	
+		

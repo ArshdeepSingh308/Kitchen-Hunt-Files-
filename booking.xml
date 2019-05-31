@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<booking>
+	<bookinginsert>
+		<name>Arshdeep</name>
+		<phonenumber>987654321</phonenumber>
+		<email>arsh@gmail.com</email>
+		<seats>2</seats>
+		<date>04/11/2018</date>
+		<arr>kitty Su</arr>
+	</bookinginsert>
+<bookinginsert><name>a</name><phonenumber>1</phonenumber><email>arsh@gmail.com</email><seats>2</seats><date>2</date><arr>Hauz Khaz Social</arr></bookinginsert><bookinginsert><name>Arshdeep</name><phonenumber>987654321</phonenumber><email>arsh@gmail.com</email><seats>3</seats><date>3</date><arr>Cafe Pluck</arr></bookinginsert><bookinginsert><name>Suresh</name><phonenumber>123456</phonenumber><email>suresh@gmail.com</email><seats>3</seats><date>3</date><arr>Cafe Pluck</arr></bookinginsert></booking>
